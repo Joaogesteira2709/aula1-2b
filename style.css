@@ -1,0 +1,48 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #000;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: oklch(20.8% 0.042 265.755);
+    font-size: 1.6rem;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+
+
+p{
+    padding-block: 30px;
+    font-size: 20px;
+    margin-block: 20px;
+    padding: 60px;
+}
+
+h1{
+    font-size: 100px;
+    font-weight: 800;
+    font-style: oblique;
+}
+
+button{
+    padding: .4rem;
+    width: 10rem;
+    background-color: oklch(29.3% 0.066 243.157);
+    border-radius: 1rem;
+    border: none;
+    outline: 2px solid oklch(14.7% 0.004 49.25);
+    color: #fff;
+    margin-bottom: 2rem;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover{
+    color: oklch(29.3% 0.066 243.157);
+    background-color: #fff;
+    transition: .7s;
+}
