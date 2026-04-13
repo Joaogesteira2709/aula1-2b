@@ -1,3 +1,5 @@
 let titulo = document.querySelector("h1")
 
-console.log(titulo)
+function alterarH1(){
+
+}
