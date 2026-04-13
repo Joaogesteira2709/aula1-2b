@@ -31,6 +31,7 @@ h1{
 button{
     padding: .4rem;
     width: 10rem;
+    height: 2.5rem;
     background-color: oklch(29.3% 0.066 243.157);
     border-radius: 1rem;
     border: none;
@@ -39,6 +40,7 @@ button{
     margin-bottom: 2rem;
     cursor: pointer;
     font-weight: bold;
+    text-align: center;
 }
 
 button:hover{
